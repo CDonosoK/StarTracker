@@ -7,7 +7,7 @@ by InnovacionesDoMa, 📍 Chile 🇨🇱
 
 | Lateral |	Logo|
 | ------------- | ------------- |
-|![alt text](https://github.com/CDonosoK/StarTracker/blob/master/Images/StarTracker%20Lateral.png)| ![alt text](https://github.com/CDonosoK/StarTracker/blob/master/Images/StarTracker%20Logo.png)
+|![alt text](https://github.com/CDonosoK/StarTracker/blob/master/Images/StarTracker%20Lateral.png)| ![alt text](https://github.com/CDonosoK/StarTracker/blob/master/Images/StarTracker%20Logo.PNG)
 
 StarTracker es un localizador de estrellas de bajo costo, el cual busca apuntar con un láser a la estrella que se haya seleciconado dentro de la base de datos de este mismo, independiente de la hora, el lugar y el día en que se encuentre el observador.
 
