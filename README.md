@@ -5,7 +5,7 @@ Un localizador de estrellas
 ## BASE DE DATOS
 
 | Estrella| Ascensión | Declinación|
-| ----- | ---- |
+| ----- | ---- | ---- |
 | Mercurio| 19h50m19s | -19°3'29'' |
 | Venus| 18h59m56s | -16°11'15'' |
 | Marte|  18h46m45s | -23°34'51''|
