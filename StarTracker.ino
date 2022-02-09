@@ -15,6 +15,7 @@ SoftwareSerial ss;
 //Threads
 
 TaskHandle_t tarea1;
+TaskHandle_t tarea2;
 
 //Para guardar los datos GPS
 String gpsData = "";
@@ -141,15 +142,14 @@ void drawMenu(){
       xTaskCreatePinnedToCore(
         drawSearchScreen,
         "Modificar pantalla",
-        100000,
+        1000,
         NULL,
         1,
         &tarea1,
         1);
 
       moveMotors(azimuth, altitud);
-      display.clearDisplay();
-      display.display(); 
+        
        
     }
   }
@@ -236,10 +236,6 @@ void drawSearchScreen(void * pvParameters){
     }
     display.clearDisplay();
     display.display(); 
-  }
-
-  for(;;){
-    
   }
   
 }
