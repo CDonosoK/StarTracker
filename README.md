@@ -3,11 +3,11 @@ by InnovacionesDoMa, 📍 Chile 🇨🇱
 
 | StarTracker  | Front |
 | ------------- | ------------- |
-|![alt text](https://github.com/CDonosoK/StarTracker/blob/main/Images/StarTracker.png) |	![alt text](https://github.com/CDonosoK/StarTracker/blob/main/Images/StarTracker%20Front.png)|
+|![alt text](https://github.com/CDonosoK/StarTracker/blob/master/Images/StarTracker.png) |	![alt text](https://github.com/CDonosoK/StarTracker/blob/master/Images/StarTracker%20Front.png)|
 
 | Lateral |	Logo|
 | ------------- | ------------- |
-|![alt text](https://github.com/CDonosoK/StarTracker/blob/main/Images/StarTracker%20Lateral.png)| ![alt text](https://github.com/CDonosoK/StarTracker/blob/main/Images/StarTracker%20Logo.png)
+|![alt text](https://github.com/CDonosoK/StarTracker/blob/master/Images/StarTracker%20Lateral.png)| ![alt text](https://github.com/CDonosoK/StarTracker/blob/master/Images/StarTracker%20Logo.png)
 
 StarTracker es un localizador de estrellas de bajo costo, el cual busca apuntar con un láser a la estrella que se haya seleciconado dentro de la base de datos de este mismo, independiente de la hora, el lugar y el día en que se encuentre el observador.
 
@@ -30,6 +30,7 @@ StarTracker es un localizador de estrellas de bajo costo, el cual busca apuntar 
 | Capella|  5h16m41s | +45°59'53''|
 
 ## CONEXIONES
+# LCD
 
 |LCD | ESP32 |
 | --- | --- |
@@ -38,6 +39,8 @@ StarTracker es un localizador de estrellas de bajo costo, el cual busca apuntar 
 | SCK | G14 |
 | SDA | G13 |
 
+# GPS
+
 | GPS  | ESP32 |
 | --- | --- |
 | VCC | 5V |
@@ -45,23 +48,30 @@ StarTracker es un localizador de estrellas de bajo costo, el cual busca apuntar 
 | TX | G33 |
 | RX | G32 |
 
+# SERVOMOTOR VERTICAL
+
 | MOTOR1 | ESP32 |
 | --- | --- |
 | VCC | 5V |
 | GND | GND |
 | SEÑAL | G16 |
 
+# SERVOMOTOR HORIZONTAL
 | MOTOR2 | ESP32 |
 | --- | --- |
 | VCC | 5V |
 | GND | GND |
 | SEÑAL | G17 |
 
+# BOTÓN
+
 | BOTON | ESP32 |
 | --- | --- |
 | VCC | 3.3V |
 | GND | GND |
 | SEÑAL | G26 |
+
+# POTENCIOMETRO
 
 | POTENCIOMETRO | ESP32 |
 | --- | --- |
