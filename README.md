@@ -11,7 +11,7 @@ by InnovacionesDoMa, 📍 Chile 🇨🇱
 
 StarTracker es un localizador de estrellas de bajo costo, el cual busca apuntar con un láser a la estrella que se haya seleciconado dentro de la base de datos de este mismo, independiente de la hora, el lugar y el día en que se encuentre el observador.
 
-### BASE DE DATOS
+## BASE DE DATOS
 
 | Estrella| Ascensión | Declinación|
 | ----- | ---- | ---- |
@@ -30,7 +30,7 @@ StarTracker es un localizador de estrellas de bajo costo, el cual busca apuntar 
 | Capella|  5h16m41s | +45°59'53''|
 
 ## CONEXIONES
-# LCD
+### LCD
 
 |LCD | ESP32 |
 | --- | --- |
@@ -39,7 +39,7 @@ StarTracker es un localizador de estrellas de bajo costo, el cual busca apuntar 
 | SCK | G14 |
 | SDA | G13 |
 
-# GPS
+### GPS
 
 | GPS  | ESP32 |
 | --- | --- |
@@ -48,7 +48,7 @@ StarTracker es un localizador de estrellas de bajo costo, el cual busca apuntar 
 | TX | G33 |
 | RX | G32 |
 
-# SERVOMOTOR VERTICAL
+### SERVOMOTOR VERTICAL
 
 | MOTOR1 | ESP32 |
 | --- | --- |
@@ -56,14 +56,14 @@ StarTracker es un localizador de estrellas de bajo costo, el cual busca apuntar 
 | GND | GND |
 | SEÑAL | G16 |
 
-# SERVOMOTOR HORIZONTAL
+### SERVOMOTOR HORIZONTAL
 | MOTOR2 | ESP32 |
 | --- | --- |
 | VCC | 5V |
 | GND | GND |
 | SEÑAL | G17 |
 
-# BOTÓN
+### BOTÓN
 
 | BOTON | ESP32 |
 | --- | --- |
@@ -71,7 +71,7 @@ StarTracker es un localizador de estrellas de bajo costo, el cual busca apuntar 
 | GND | GND |
 | SEÑAL | G26 |
 
-# POTENCIOMETRO
+### POTENCIOMETRO
 
 | POTENCIOMETRO | ESP32 |
 | --- | --- |
@@ -79,4 +79,4 @@ StarTracker es un localizador de estrellas de bajo costo, el cual busca apuntar 
 | GND | GND |
 | SEÑAL | G35 |
 
-### COMO FUNCIONA
+## COMO FUNCIONA
